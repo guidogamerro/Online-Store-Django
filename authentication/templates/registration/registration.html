@@ -1,0 +1,17 @@
+{% extends "myweb/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<form method= "post" action="" style="color: white;">
+
+    {% csrf_token %}
+
+    {{form}}
+
+    <button type="subit" class="btn btn-success">Register</button>
+
+</form>
+
+{% endblock %}
