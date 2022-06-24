@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'blog',
     'contact',
     'store',
-    'cart',
+    #'cart',
     'authentication',
 ]
 
@@ -69,7 +69,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'cart.context_proccessor.import_total_cart',
+                #'cart.context_proccessor.import_total_cart',
             ],
         },
     },
@@ -140,4 +140,4 @@ EMAIL_HOST="smtp.gmail.com"
 EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER="guidogamerro@gmail.com"
-EMAIL_HOST_PASSWORD="belgrano232"
+EMAIL_HOST_PASSWORD="guido123gamerro"
